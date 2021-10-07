@@ -72,7 +72,7 @@ const Board = () => {
     window.addEventListener('keydown', e => {
       handleKeydown(e);
     });
-  }, []);
+  });
 
   // `useInterval` is needed; you can't naively do `setInterval` in the
   // `useEffect` above. See the article linked above the `useInterval`
